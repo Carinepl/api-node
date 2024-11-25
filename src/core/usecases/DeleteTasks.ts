@@ -2,7 +2,6 @@ import { TaskStatus } from "../entities/TaskStatus";
 import { InvalidOperationException } from "../exceptions/InvalidOperationException";
 import { ResourceNotFoundException } from "../exceptions/ResourceNotFoundException";
 import { TaskRepository } from "../repositores/TaskRepository";
-
 export class DeleteTask {
   constructor(private readonly repository: TaskRepository) {}
 
